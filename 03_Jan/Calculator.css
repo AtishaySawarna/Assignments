@@ -1,0 +1,50 @@
+.title {  
+margin-bottom: 10px;  
+padding: 5px 0;  
+font-size: 75px;  
+text-align: center;  
+color: green;  
+ 
+}  
+input[type=button] {  
+  width: 50px;  
+  height: 50px;  
+  float: left;  
+  margin: 10px;  
+  box-sizing: border-box;  
+  border: none; 
+  font-size: 30px; 
+  line-height: 30px;  
+  border-radius: 30%;  
+}  
+input[type=text] {  
+  width: 270px;  
+  height: 60px;  
+  float: left;    
+  color: red;  
+  text-align: right;  
+  font-weight: 700;  
+  font-size: 60px;  
+ 
+  }  
+.calculator {  
+  background-color: black;  
+  
+#display {  
+  height: 40px;  
+  text-align: right;  
+  background-color: black;  
+    
+  font-size: 18px;  
+  left: 2px;  
+  top: 2px;  
+  color: red;  
+}  
+.btnTop {  
+  color: rgb(46, 28, 110);  
+  background-color: red;  
+  font-size: 14px;  
+  margin: auto;  
+  width: 50px;  
+  height: 25px;  
+}     
