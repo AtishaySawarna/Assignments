@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1172849/pexels-photo-1172849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.979);
+    text-align: center;
+    margin-top: -20px;
+}
+
+.border {
+    border: 3px;
+    border-style: solid;
+    color: black;
+    width: 65%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.asterics{
+    font-size: 40px;
+}
+
+.paragraph{
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+
+#para::first-letter{  
+    font-size: 70px;
+}
