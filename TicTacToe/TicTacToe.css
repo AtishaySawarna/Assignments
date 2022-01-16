@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--HVH8ms5o--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.ayushmanbthakur.com/tic_tac_toe/markup_complete.png);
+background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: red;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: 10px auto;
+    background-color: black;
+    color: #04c0b2;
+}
+
+
