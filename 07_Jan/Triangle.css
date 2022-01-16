@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+     background-image: url("https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+#H{
+    margin-left: 35%;
+    margin-top: 10%;
+   
+    
+}
+#tri1{
+  width: 0;
+  height: 0;
+  border-width: 0 210px 160px 210px;
+  border-color: transparent transparent red transparent;
+  border-style: solid;
+  position: absolute;
+  z-index: 3;
+ 
+ }
+#tri2{
+  width: 0;
+  height: 0;
+  top: 230px;
+  border-width: 0 210px 160px 210px;
+  border-color: transparent transparent blue transparent;
+  border-style: solid;
+  position: absolute;
+  z-index: 2;
+}
+#tri3{
+  width: 0;
+  height: 0;
+  top: 310px;
+  border-width: 0 210px 160px 210px;
+  border-color: transparent transparent yellow transparent;
+  border-style: solid;
+  position: absolute;
+  z-index: 1;
+}
