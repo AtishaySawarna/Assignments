@@ -1,0 +1,54 @@
+body{
+     background-image: url("https://images.pexels.com/photos/268415/pexels-photo-268415.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+.head{
+    text-align: center; 
+    color: black;
+}
+
+/* style for text inside button */
+ span{
+     color: rgb(0, 253, 0); 
+  
+ }
+ /* activating another text using pseudo class */
+ span:active{
+    color: aquamarine;
+ }
+ /* layout to table  */
+ table{
+     margin: auto;
+     border: solid;
+     background-color: white;
+ }
+ /* layout to button  */
+ button{background-color: lightgrey ;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: thin;
+
+ } 
+ /* unique color for clear and backspace button */
+ #one,#two{
+     color: tomato;
+ }
+  /* adjusting size for display of input */
+  #display {
+     font-size: 20px;
+     height: 1.5cm;
+     border-radius: 15px;
+ }
+ /* adjusting nav tag */
+ nav div h2 {
+     margin-top: 1cm;
+     margin-left: 3cm;
+ }
+ /* activing pseudo to buttons */
+ button:active{
+     color: aquamarine;
+     background-color: black;
+ }
+ 

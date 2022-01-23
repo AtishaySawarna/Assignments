@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head > 
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="calculator.css" > 
+    </head>
+    <body>
+         <header class="head">
+            
+             <h1>CALCULATOR</h1>
+            
+         </header>
+         <nav>
+           
+             <table>
+                 <thead>
+                     <tr>
+                         <th colspan="4"> <p id="display" > &nbsp;</p></th>
+                     </tr>
+                 </thead>
+                 <tr >
+                     
+                     <td><button onclick="clearAll( )"><span  id="one">C</span></button></td>
+                     <td><button onclick="merge('(')"><span >(</span></button></td>
+                     <td><button  onclick="merge(')')"><span>)</span></button></td>
+                     <td><button onclick="setoperator('/')"><span >/</span></button></td>
+                 </tr>
+                 <tr >
+                    
+                    <td><button onclick="merge('7')">7</button></td>
+                    <td><button onclick="merge('8')">8</button></td>
+                    <td><button onclick="merge('9')">9</button></td>
+                    <td><button onclick="setoperator('*')"><span>*</span></button></td>
+                </tr>
+                 <tr>
+                      
+                    <td><button onclick="merge('4')">4</button></td>
+                    <td><button onclick="merge('5')">5</button></td>
+                    <td><button onclick="merge('6')">6</button></td>
+                    <td><button onclick="setoperator('-')"><span>-</span></button></td>
+                </tr> 
+                <tr>
+                     
+                    <td><button onclick="merge('1')">1</button></td>
+                    <td><button onclick="merge('2')">2</button></td>
+                    <td><button onclick="merge('3')">3</button></td>
+                    <td><button onclick="setoperator('+')"><span>+</span></button></td>
+                </tr>
+                <tr>
+                     
+                    <td><button onclick="back( )"><span id="two">⌫ </span></button></td>
+                    <td><button onclick="merge('0')">0</button></td>
+                    <td><button onclick="merge('.')">.</button></td>
+                    <td><button onclick="solve( )"><span>=</span></button></td>
+                </tr>
+             </table>
+         </nav>
+         <script src="calculotor.js"></script>
+    </body>
+</html> 
