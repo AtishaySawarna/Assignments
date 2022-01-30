@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    /* border: 1px solid black; */
+}
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    background-color: yellow;
+    color:red;
+}
+body{
+    background-color: grey;
+}
+td{
+    padding-left: 10px;
+    border: 0.1px solid  black;
+    /* background-color: lightgreen; */
+    background-image: linear-gradient(blue);
+   color: black;
+   font-style: oblique;
+}
+td:hover{
+    text-align: center;
+  background-color: cadetblue;
+  color: darkred;
+  font-style: italic;
+  font-weight: 300;
+}
+th{
+    border: 1px solid black;
+    background-image: linear-gradient(to top ,white , rgb(45, 194, 214));
+    font-style: italic;
+    color:black;
+}
+th:hover{
+    text-align: center;
+  background-color: cadetblue;
+  color: darkred;
+  font-style: italic;
+  font-weight: 300;
+}
