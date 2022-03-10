@@ -1,0 +1,11 @@
+vector sortArray(vector< int >& nums) {
+priority_queue<int,vector,greater< int >>min;
+for(int i=0;i<nums.size();i++)min.push(nums[i]);
+nums.clear();
+while(!min.empty())
+{
+nums.push_back(min.top());
+min.pop();
+}
+return nums;
+}
